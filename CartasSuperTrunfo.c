@@ -21,6 +21,7 @@ int main(){
     float densidade_popula2;
     float pib_per_capita2;
 
+    printf("Carta 1:\n");
     printf("Digite a letra do estado: \n");
     scanf("%s", &estado);
     
@@ -65,10 +66,10 @@ int main(){
     scanf("%d", &Npontosturisticos2);
 
     densidade_popula = populacao / area;
-    pib_per_capita = pib / populacao;
+    pib_per_capita = (pib * 1000000000) / populacao;
 
     densidade_popula2 = populacao2 / area2;
-    pib_per_capita2 = pib2 / populacao2;
+    pib_per_capita2 = (pib2 * 1000000000) / populacao2;
 
     printf("\nCarta:1\n");
     printf("Estado: %s\n", estado);
