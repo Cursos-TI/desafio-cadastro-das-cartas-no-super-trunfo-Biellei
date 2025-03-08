@@ -174,14 +174,6 @@ int main(){
         break;
     }
 
-    populacao1;
-    Npontosturisticos1;
-    area1;
-    pib1;
-    densidade_popula1;
-    pib_per_capita1;
-    superpoder1;
-
     return 0;
 
 
